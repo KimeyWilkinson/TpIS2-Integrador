@@ -12,7 +12,7 @@ class EmpleadoEventualTests extends \PHPUnit\Framework\TestCase
     public function testCalcularComision()
     {
         $e = $this->crear();
-        $this->assertEquals((1300/2) * 0.05, $e->calcularComision());
+        $this->assertEquals((1100/2) * 0.05, $e->calcularComision());
     }
 
     public function testCalcularIngresoTotal()
